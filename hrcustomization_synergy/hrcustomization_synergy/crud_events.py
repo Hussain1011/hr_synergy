@@ -24,6 +24,6 @@ def fetch_overtime_details(doc, method):
             "total_special_ot": 0
         }
         
-        doc.custom_total_normal_ot = totals.get("total_normal_ot", 0)
-        doc.custom_total_holiday_ot = totals.get("total_holiday_ot", 0)
-        doc.custom_total_special_ot = totals.get("total_special_ot", 0)
+        # doc.custom_total_normal_ot = totals.get("total_normal_ot", 0)
+        # doc.custom_total_holiday_ot = totals.get("total_holiday_ot", 0)
+        # doc.custom_total_special_ot = totals.get("total_special_ot", 0)
