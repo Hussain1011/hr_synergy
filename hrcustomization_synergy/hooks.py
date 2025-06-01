@@ -146,9 +146,9 @@ fixtures = [
 # Hook on document methods and events
 
 doc_events = {
-    "Salary Slip": {
-        "before_validate": "hrcustomization_synergy.hrcustomization_synergy.crud_events.fetch_overtime_details"
-    }
+    # "Salary Slip": {
+    #     "before_validate": "hrcustomization_synergy.hrcustomization_synergy.crud_events.fetch_overtime_details"
+    # }
 }
 
 # Scheduled Tasks
